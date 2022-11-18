@@ -38,8 +38,6 @@ npm install # Pasta web
 cp .env.example .env # Pasta server
 ```
 
-_OBS: Preencher com suas variáveis de ambiente com a url do banco de dados PostgreSQL_
-
 4. Executar projeto
 
 ```bash
