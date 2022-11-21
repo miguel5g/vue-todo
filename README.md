@@ -2,6 +2,8 @@
 
 Aplicação fullstack de todo list
 
+![Home Page](/.github/assets/app.png)
+
 ## :test_tube: Techs
 
 Tecnologias e ferramentas que foram utilizadas para desenvolver este projeto:
@@ -32,13 +34,19 @@ npm install # Pasta server
 npm install # Pasta web
 ```
 
-3. Configurar variáveis de ambiente:
+3. Configurar variáveis de ambiente
 
 ```bash
 cp .env.example .env # Pasta server
 ```
 
-4. Executar projeto
+4. Rodar as migrations
+
+```bash
+npx prisma migrate deploy # Pasta server
+```
+
+5. Executar projeto
 
 ```bash
 npm run start:dev # Pasta server
